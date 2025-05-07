@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rafael-cayax/Documentos/proyectoC#/Proyecto1/Proyecto1.csproj",
+      "projectUniqueName": "/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/Proyecto1.csproj",
       "projectName": "Proyecto1",
-      "projectPath": "/home/rafael-cayax/Documentos/proyectoC#/Proyecto1/Proyecto1.csproj",
+      "projectPath": "/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/Proyecto1.csproj",
       "packagesPath": "/home/rafael-cayax/.nuget/packages/",
-      "outputPath": "/home/rafael-cayax/Documentos/proyectoC#/Proyecto1/obj/",
+      "outputPath": "/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/rafael-cayax/.nuget/NuGet/NuGet.Config"
