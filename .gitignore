@@ -1,0 +1,17 @@
+# Carpetas generadas por .NET y compilaciones
+bin/
+obj/
+
+# Archivos de usuario y temporales de VS Code
+.vscode/
+*.user
+*.suo
+
+# Archivos de log y temporales
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
