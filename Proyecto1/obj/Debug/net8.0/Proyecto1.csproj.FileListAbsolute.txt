@@ -1,0 +1,15 @@
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.AssemblyInfoInputs.cache
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.AssemblyInfo.cs
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.csproj.CoreCompileInputs.cache
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.sourcelink.json
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/bin/Debug/net8.0/Proyecto1
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/bin/Debug/net8.0/Proyecto1.deps.json
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/bin/Debug/net8.0/Proyecto1.runtimeconfig.json
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/bin/Debug/net8.0/Proyecto1.dll
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/bin/Debug/net8.0/Proyecto1.pdb
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.dll
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/refint/Proyecto1.dll
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.pdb
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/Proyecto1.genruntimeconfig.cache
+/home/rafael-cayax/Documentos/proyecto_en_c/Proyecto1/obj/Debug/net8.0/ref/Proyecto1.dll

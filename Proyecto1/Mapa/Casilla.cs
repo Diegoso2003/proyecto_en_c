@@ -2,11 +2,12 @@
 
 public abstract class Casilla
 {
-    private string imagen;
+    public string Imagen
+    {get; private set;}
 
     public Casilla(string imagen)
     {
-        this.imagen = imagen;
+        Imagen = imagen;
     }
 
     public abstract void accionCasilla();

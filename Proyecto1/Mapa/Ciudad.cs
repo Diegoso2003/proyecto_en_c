@@ -1,10 +1,9 @@
 ﻿namespace Proyecto1.Mapa;
+using Proyecto1.Imagen;
 
 public class Ciudad : Casilla
 {
-    private string ciudadLiberada = "🏯";
-
-    public Ciudad() : base("🏰") { }
+    public Ciudad() : base(Imagenes.Ciudad.Imagen) { }
 
     public override void accionCasilla()
     {
