@@ -1,6 +1,6 @@
 # Carpetas generadas por .NET y compilaciones
-bin/
-obj/
+Proyecto1/bin/
+Proyecto1/obj/
 
 # Archivos de usuario y temporales de VS Code
 .vscode/
