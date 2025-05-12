@@ -16,7 +16,7 @@ public class Mapa
         {
             for(int j = 0; j < casillas.GetLength(1); j++)
             {
-                if(jugador.PosicionX == i && jugador.PosicionY == j)
+                if(jugador.PosicionX == j && jugador.PosicionY == i)
                 {
                     Console.Write(jugador.Imagen);
                 }
@@ -34,4 +34,9 @@ public class Mapa
         return false;
     }
  
+    public bool EsPosicionValida(int posicionX, int posicionY)
+    {
+        return posicionX >= 0 && posicionX < casillas.GetLength(1)
+            && posicionY >= 0 && posicionY < casillas.GetLength(0);
+    }
 }

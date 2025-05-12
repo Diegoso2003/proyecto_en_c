@@ -3,12 +3,8 @@
 public class ConstructorDeMapa
 {
     private readonly Random random = new();
-    private const int MapaPequeño = 7;
-    private const int MapaMediano = 10;
-    private const int MapaGrande = 12;
-    private const int MenorNumeroCiudades = 3;
-    private const int MedioNumeroCiudades = 4;
-    private const int MaximoNumeroCiudades = 5;
+    private readonly int[] TamañoMapa = [7, 10, 12];
+    private readonly int[] NumeroCiudades = [3, 4, 5];
 
     private readonly Casilla[,] casillas;
 
@@ -26,15 +22,7 @@ public class ConstructorDeMapa
 
     private int CalcularTamaño()
     {
-        int r = random.Next(1,4);
-        switch(r){
-            case 1:
-                return MapaPequeño;
-            case 2:
-                return MapaMediano;
-            default:
-                return MapaGrande;
-        }
+        return TamañoMapa[random.Next(0, TamañoMapa.Length)];
     }
 
     private void LlenarCasillas()
@@ -93,16 +81,7 @@ public class ConstructorDeMapa
 
     private int CalcularNumeroCiudades()
     {
-        int r = random.Next(1,4);
-        switch(r)
-        {
-            case 1:
-                return MenorNumeroCiudades;
-            case 2:
-                return MedioNumeroCiudades;
-            default:
-                return MaximoNumeroCiudades;
-        }
+        return NumeroCiudades[random.Next(1,NumeroCiudades.Length)];
     }
 
     private void ColocarCasilla(Casilla casilla)

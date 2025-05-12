@@ -8,17 +8,41 @@ public class Jugador
     public int Oro
     {get; set;} = 1000;
     public int PosicionX 
-    {get;}
+    {get; private set;} = 0;
     public int PosicionY
-    {get;}
+    {get; private set;} = 0;
     private readonly string imagen = Imagenes.Jugador.Imagen;
 
     public string Imagen
     {get{ return imagen; }}
 
-    public void MoverseMapa(Mapa.Mapa mapa)
+    public void MoverseMapa(Mapa.Mapa mapa, string opcion)
     {
-        ElegirDireccion();
+        int nuevaPosicionX = PosicionX;
+        int nuevaPosicionY = PosicionY;
+        opcion = opcion.ToLower();
+        switch(opcion)
+        {
+            case "a":
+                nuevaPosicionX--;
+            break;
+            case "s":
+                nuevaPosicionY++;
+            break;
+            case "d":
+                nuevaPosicionX++;
+            break;
+            case "w":
+                nuevaPosicionY--;
+            break;
+            default:
+            return;
+        }
+        if(mapa.EsPosicionValida(nuevaPosicionX, nuevaPosicionY))
+        {
+            PosicionX = nuevaPosicionX;
+            PosicionY = nuevaPosicionY;
+        }
     }
 
     private void ElegirDireccion()

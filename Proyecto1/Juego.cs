@@ -31,7 +31,7 @@ public class Juego
                     //realizar la opcion de finalizar juego
                 break;
                 default:
-                    jugador.MoverseMapa(mapa);
+                    jugador.MoverseMapa(mapa, opcion);
                 break;
             }
         }
