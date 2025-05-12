@@ -21,6 +21,7 @@ public class Jugador
         int nuevaPosicionX = PosicionX;
         int nuevaPosicionY = PosicionY;
         opcion = opcion.ToLower();
+        bool moverse = true;
         switch(opcion)
         {
             case "a":
@@ -36,17 +37,14 @@ public class Jugador
                 nuevaPosicionY--;
             break;
             default:
-            return;
+                moverse = false;
+            break;
         }
-        if(mapa.EsPosicionValida(nuevaPosicionX, nuevaPosicionY))
+        if(mapa.EsPosicionValida(nuevaPosicionX, nuevaPosicionY) && moverse)
         {
             PosicionX = nuevaPosicionX;
             PosicionY = nuevaPosicionY;
+            mapa.RealizarAccionCasilla(this);
         }
-    }
-
-    private void ElegirDireccion()
-    {
-
     }
 }

@@ -3,7 +3,7 @@ using Proyecto1.Imagen;
 public class CasillaEnemigosFuertes : Casilla
 {
     public CasillaEnemigosFuertes() : base(Imagenes.CasillaEnemigosFuertes.Imagen) { }
-    public override void accionCasilla()
+    internal override void AccionCasilla(Jugador.Jugador jugador)
     {
         throw new NotImplementedException();
     }

@@ -6,8 +6,7 @@ public class Tienda : Casilla
 
     public Tienda() : base(Imagenes.Tienda.Imagen) { }
 
-    public override void accionCasilla()
+    internal override void AccionCasilla(Jugador.Jugador jugador)
     {
-        throw new NotImplementedException();
     }
 }

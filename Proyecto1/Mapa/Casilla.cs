@@ -10,5 +10,5 @@ public abstract class Casilla
         Imagen = imagen;
     }
 
-    public abstract void accionCasilla();
+    internal abstract void AccionCasilla(Jugador.Jugador jugador);
 }

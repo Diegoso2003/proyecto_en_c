@@ -4,8 +4,7 @@ public class Posada : Casilla
 {
 
     public Posada() : base(Imagenes.Posada.Imagen) { }
-    public override void accionCasilla()
+    internal override void AccionCasilla(Jugador.Jugador jugador)
     {
-        throw new NotImplementedException();
     }
 }
